@@ -1,4 +1,3 @@
-const AureliaPlugin = require('aurelia-webpack-plugin').AureliaPlugin;
 const DefinePlugin = require('webpack').DefinePlugin;
 
 const wallaby = require('@dolittle/build/wallaby')
