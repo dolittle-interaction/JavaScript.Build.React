@@ -1,6 +1,6 @@
 {
   "name": "@dolittle/build.react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Build pipeline for React based JavaScript applications",
   "main": "index.js",
   "scripts": {
