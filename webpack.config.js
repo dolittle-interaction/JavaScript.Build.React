@@ -128,7 +128,9 @@ module.exports = ({ production, server, extractCss, analyze } = {}) => ({
             'Promise': 'bluebird'
         }),
         new HtmlWebpackPlugin({
-            template: path.join(featureDir, 'index.html'),
+            template: fs.existsSync('index.ejs')? 
+                path.join('index.ejs')
+                : path.join(featureDir, 'index.html'),
             minify: production ? {
                 removeComments: true,
                 collapseWhitespace: true
