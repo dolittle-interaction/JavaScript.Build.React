@@ -1,0 +1,6 @@
+{
+  "extends": "@dolittle/build/.babelrc",
+  "presets": [
+    "@babel/preset-react"
+  ]
+}
